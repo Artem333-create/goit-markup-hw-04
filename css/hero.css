@@ -1,5 +1,8 @@
 .hero {
+  max-width: 1440px;
+  margin: 0 auto;
   padding: 188px 0;
+
   background-color: #2e2f42;
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -24,6 +27,7 @@
 }
 
 .hero-btn {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: block;
   padding: 16px 32px;
   margin-left: auto;
